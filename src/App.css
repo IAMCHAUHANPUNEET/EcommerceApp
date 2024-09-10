@@ -1,0 +1,36 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.filter-sidebar {
+  width: 200px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product-item {
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  text-align: left;
+}
+
+select {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 15px;
+}
